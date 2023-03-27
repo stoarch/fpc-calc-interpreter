@@ -1,0 +1,14 @@
+unit numberTokenBuilder;
+
+interface
+  uses
+    tokenBuilder;
+
+  type
+    TNumberTokenBuilder = class
+
+    end;
+
+implementation
+
+end.

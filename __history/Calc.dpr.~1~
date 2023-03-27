@@ -1,0 +1,16 @@
+program Calc;
+
+uses
+  Vcl.Forms,
+  formCalculator in 'formCalculator.pas' {CalculatorForm},
+  calculatorParser in 'calculatorParser.pas',
+  calculatorVM in 'calculatorVM.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TCalculatorForm, CalculatorForm);
+  Application.Run;
+end.

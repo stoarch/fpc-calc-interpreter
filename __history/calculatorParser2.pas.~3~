@@ -1,0 +1,38 @@
+unit calculatorParser2;
+
+interface
+  uses
+    calculatorVM;
+
+  type
+    TCalculatorParser2 = class(ICalculatorParser)
+    private
+      FVirtualMachine: TCalculatorVM;
+      FErrorPosition: string;
+      FErrorMessage: string;
+
+      procedure SetVirtualMachine(const Value: TCalculatorVM);
+    public
+        function Evaluate(expression: string): boolean;
+
+        property ErrorMessage: string read FErrorMessage;
+        property ErrorPosition: string read FErrorPosition;
+
+        property VirtualMachine: TCalculatorVM read FVirtualMachine write SetVirtualMachine;
+    end;
+
+implementation
+
+{ TCalculatorParser2 }
+
+function TCalculatorParser2.Evaluate(expression: string): boolean;
+begin
+
+end;
+
+procedure TCalculatorParser2.SetVirtualMachine(const Value: TCalculatorVM);
+begin
+  FVirtualMachine := Value;
+end;
+
+end.

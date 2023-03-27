@@ -1,0 +1,19 @@
+unit calculatorLexer;
+
+interface
+
+type
+    TCalculatorLexer = class
+    private
+      FErrorMessage: string;
+      FErrorPosition: string;
+    public
+      function Evaluate(expression: string): boolean;
+
+      property ErrorMessage: string read FErrorMessage;
+      property ErrorPosition: string read FErrorPosition;
+    end;
+
+implementation
+
+end.

@@ -1,0 +1,42 @@
+unit formCalculator;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.StdCtrls;
+
+type
+  TCalculatorForm = class(TForm)
+    Label1: TLabel;
+    memExpression: TMemo;
+    btnEvaluate: TButton;
+    memResult: TMemo;
+    StatusBar1: TStatusBar;
+  private
+    { Private declarations }
+    FCalculatorParser: TCalculatorParser;
+    FCalculatorVM: TCalculatorVM;
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent);override;
+  end;
+
+var
+  CalculatorForm: TCalculatorForm;
+
+implementation
+
+{$R *.dfm}
+
+constructor TCalculatorForm.Create(AOwner: TComponent);
+begin
+  inherited;
+
+  FCalculatorParser := TCalculatorParser.Create();
+  FCalculatorVM := TCalculatorVM.Create();
+
+  FCalculatorParser.VirtualMachine := FCalculatorVM;
+end;
+
+end.

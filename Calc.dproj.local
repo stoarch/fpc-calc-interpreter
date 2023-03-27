@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.864,C:\Users\storm\Documents\Embarcadero\Studio\Projects\calculatorVM.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Calc.dproj=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calc.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.323,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\numberTokenBuilder.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.004,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorTokenParser.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.334,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorParser2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.671,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.734,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\interface_calculatorParser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.971,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calc.dproj=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.977,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.656,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.646,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.458,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.477,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorVM.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\calculatorVM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.693,C:\Users\storm\Documents\Embarcadero\Studio\Projects\calculatorParser.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\formCalculator.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\formCalculator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.214,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.962,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.844,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\tokenTypes.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.720,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\plusTokenBuilder.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\formCalculator.dfm=C:\Users\storm\Documents\Embarcadero\Studio\Projects\formCalculator.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,C:\Users\storm\Documents\Embarcadero\Studio\Projects\formCalculator.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.234,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\tokenBuilder.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.336,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorLexer.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,C:\Users\storm\Documents\Embarcadero\Studio\Projects\formCalculator.dfm=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.488,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorParser.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\calculatorParser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.438,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\calculatorCompiler.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.465,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.042,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.971,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.076,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\token.pas=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.201,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.045,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.953,=C:\Users\storm\Documents\Embarcadero\Studio\Projects\Calculator\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

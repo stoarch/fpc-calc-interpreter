@@ -1,0 +1,15 @@
+unit tokenBuilder;
+
+interface
+  uses
+    token
+    ;
+
+  type
+    TTokenBuilder = class
+
+    end;
+
+implementation
+
+end.

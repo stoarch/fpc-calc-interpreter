@@ -1,0 +1,15 @@
+unit token;
+
+interface
+
+type
+  TTokenPosition = type integer;
+
+  TToken = record
+    value: string;
+    position: TTokenPosition;
+  end;
+
+implementation
+
+end.

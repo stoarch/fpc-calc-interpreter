@@ -1,0 +1,11 @@
+unit calculatorVM;
+
+interface
+  type
+      TCalculatorVM = class
+
+      end;
+
+implementation
+
+end.

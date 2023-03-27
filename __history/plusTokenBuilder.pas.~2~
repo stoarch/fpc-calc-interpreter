@@ -1,0 +1,14 @@
+unit plusTokenBuilder;
+
+interface
+  uses
+    tokenBuilder
+    ;
+
+  type
+    TPlusTokenBuilder = class(TTokenBuilder)
+
+    end;
+implementation
+
+end.

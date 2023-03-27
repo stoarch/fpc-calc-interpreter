@@ -1,0 +1,79 @@
+unit calculatorLexer;
+
+interface
+  uses
+    token, tokenTypes, tokenBuilder,
+    system.Generics.Collections;
+
+type
+    TCalculatorLexer = class
+    private
+      FErrorMessage: string;
+      FErrorPosition: string;
+      FTokenList: TTokenList;
+      FTokenBuilders: TDictionary<AnsiString, TTokenBuilder>;
+    public
+      constructor Create();
+      destructor Destroy();override;
+
+      function Evaluate(expression: string): boolean;
+
+      property ErrorMessage: string read FErrorMessage;
+      property ErrorPosition: string read FErrorPosition;
+
+      property Tokens: TTokenList read FTokenList;
+    end;
+
+implementation
+  uses
+    sysutils
+    ;
+{ TCalculatorLexer }
+
+constructor TCalculatorLexer.Create;
+begin
+  FTokenList := TTokenList.Create;
+end;
+
+destructor TCalculatorLexer.Destroy;
+begin
+  if(Assigned(FTokenList))then
+    FreeAndNil(FTokenList);
+
+  inherited;
+end;
+
+function TCalculatorLexer.Evaluate(expression: string): boolean;
+var
+  tokenStr : TArray<AnsiString>;
+  i: Integer;
+  token: TToken;
+  curTokenStr: string;
+  curPos : integer;
+begin
+  result := false;
+
+  curPos := 1;
+
+  //Split string and scan every substring to get tokens from it
+  //Make list of it
+  tokenStr := expression.Split([' ']);
+
+  FTokenList.Clear;
+
+  for i := 0 to Length(tokenStr) do
+  begin
+    curTokenStr := UpperCase(tokenStr[i]);
+
+    if(not FTokenBuilders.Contains(curTokenStr)) then
+    begin
+      FErrorMessage := Format('Unknown token %s',[curTokenStr]);
+      FErrorPosition := Format('At position: %d',[curPos]);
+      exit;
+    end;
+
+    builder := FTokenBuilders[curTokenStr];
+  end;
+end;
+
+end.

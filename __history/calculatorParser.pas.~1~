@@ -1,0 +1,25 @@
+unit calculatorParser;
+
+interface
+  uses
+      calculatorVM;
+
+type
+    TCalculatorParser = class
+      private
+        FVirtualMachine: TCalculatorVM;
+        procedure SetVirtualMachine(const Value: TCalculatorVM);
+      published
+          property VirtualMachine: TCalculatorVM read FVirtualMachine write SetVirtualMachine;
+      end;
+
+implementation
+
+{ TCalculatorParser }
+
+procedure TCalculatorParser.SetVirtualMachine(const Value: TCalculatorVM);
+begin
+  FVirtualMachine := Value;
+end;
+
+end.

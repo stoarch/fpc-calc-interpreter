@@ -1,0 +1,11 @@
+unit calculatorParser2;
+
+interface
+  type
+    TCalculatorParser2 = class(ICalculatorParser)
+
+    end;
+
+implementation
+
+end.
